@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background: #f2f2f2;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 20px 10px;
+  }
+
+  .chart-heading {
+    font-size: 20px;
+    width: 400px;
+  }
+
+  .programming-stats {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .chart-heading {
+    width: 300px;
+  }
+}
+
+.chart-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.chart-container {
+  width: 200px;
+}
+
+.programming-stats {
+  background: #fff;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin: auto auto;
+  width: fit-content;
+  box-shadow: 0 4px 12px -5px rgba(0, 0, 0, 0.3);
+  border: 1px solid #f2f2f2;
+  border-radius: 20px;
+  padding: 32px;
+  transition: all 300ms ease;
+}
+
+.programming-stats:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 16px -10px rgba(0, 0, 0, 0.3);
+}
+
+.programming-stats .details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.programming-stats .details ul li {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 12px 0;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.programming-stats .details .percentage {
+  font-weight: 800;
+}
+
+.color-0 {
+  color: #87a2ff;
+}
+
+.color-1 {
+  color: #15b392;
+}
+
+.color-2 {
+  color: #f05a7e;
+}
+
+.color-3 {
+  color: #fccd2a;
+}
+
+.color-4 {
+  color: #874ccc;
+}
+
+.ml-1 {
+  margin-left: 10px;
+}
+
+.circle {
+  width: 13px;
+  height: 13px;
+  margin-right: 8px;
+  border-radius: 3px;
+}
+
+.bg-0 {
+  background: #87a2ff;
+}
+
+.bg-1 {
+  background: #15b392;
+}
+
+.bg-2 {
+  background: #f05a7e;
+}
+
+.bg-3 {
+  background: #fccd2a;
+}
+
+.bg-4 {
+  background: #874ccc;
+}
